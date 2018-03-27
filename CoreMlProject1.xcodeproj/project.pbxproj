@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C614A8E206AD01500A68A41 /* CoreML Project 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C614A8C206AD01400A68A41 /* CoreML Project 1.png */; };
+		9C614A8F206AD01500A68A41 /* CoreML Project 1 - Object Identified.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C614A8D206AD01400A68A41 /* CoreML Project 1 - Object Identified.png */; };
 		9CC59508205E35EA0056B370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC59507205E35EA0056B370 /* AppDelegate.swift */; };
 		9CC5950A205E35EA0056B370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC59509205E35EA0056B370 /* ViewController.swift */; };
 		9CC5950D205E35EA0056B370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5950B205E35EA0056B370 /* Main.storyboard */; };
 		9CC5950F205E35EA0056B370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5950E205E35EA0056B370 /* Assets.xcassets */; };
 		9CC59512205E35EA0056B370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC59510205E35EA0056B370 /* LaunchScreen.storyboard */; };
+		9CC5951A205E36DD0056B370 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9CC59519205E36DD0056B370 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9C614A8C206AD01400A68A41 /* CoreML Project 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CoreML Project 1.png"; sourceTree = "<group>"; };
+		9C614A8D206AD01400A68A41 /* CoreML Project 1 - Object Identified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CoreML Project 1 - Object Identified.png"; sourceTree = "<group>"; };
 		9CC59504205E35EA0056B370 /* CoreMlProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMlProject1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CC59507205E35EA0056B370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CC59509205E35EA0056B370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		9CC5950E205E35EA0056B370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CC59511205E35EA0056B370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CC59513205E35EA0056B370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CC59519205E36DD0056B370 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C614A8B206AD00300A68A41 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				9C614A8D206AD01400A68A41 /* CoreML Project 1 - Object Identified.png */,
+				9C614A8C206AD01400A68A41 /* CoreML Project 1.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		9CC594FB205E35EA0056B370 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +69,14 @@
 		9CC59506205E35EA0056B370 /* CoreMlProject1 */ = {
 			isa = PBXGroup;
 			children = (
+				9C614A8B206AD00300A68A41 /* Screenshots */,
 				9CC59507205E35EA0056B370 /* AppDelegate.swift */,
 				9CC59509205E35EA0056B370 /* ViewController.swift */,
 				9CC5950B205E35EA0056B370 /* Main.storyboard */,
 				9CC5950E205E35EA0056B370 /* Assets.xcassets */,
 				9CC59510205E35EA0056B370 /* LaunchScreen.storyboard */,
 				9CC59513205E35EA0056B370 /* Info.plist */,
+				9CC59519205E36DD0056B370 /* Inceptionv3.mlmodel */,
 			);
 			path = CoreMlProject1;
 			sourceTree = "<group>";
@@ -124,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC59512205E35EA0056B370 /* LaunchScreen.storyboard in Resources */,
+				9C614A8E206AD01500A68A41 /* CoreML Project 1.png in Resources */,
+				9C614A8F206AD01500A68A41 /* CoreML Project 1 - Object Identified.png in Resources */,
 				9CC5950F205E35EA0056B370 /* Assets.xcassets in Resources */,
 				9CC5950D205E35EA0056B370 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CC5950A205E35EA0056B370 /* ViewController.swift in Sources */,
+				9CC5951A205E36DD0056B370 /* Inceptionv3.mlmodel in Sources */,
 				9CC59508205E35EA0056B370 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
